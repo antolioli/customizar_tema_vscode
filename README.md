@@ -9,8 +9,7 @@ No canto superior direito, clique no ícone de engrenagem e selecione "Settings"
 Na barra de pesquisa, digite "workbench.colorCustomizations" para encontrar as configurações de personalização de cores.
 Clique em "Edit in settings.json" para abrir o arquivo settings.json.
 Adicione ou modifique as configurações de personalização de cores conforme desejado. Por exemplo:
-json
-Copy code
+Exemplo:
 "workbench.colorCustomizations": {
         // Personalização das cores do ambiente de trabalho do VS Code
         "activityBar.background": "#3a3f4b",

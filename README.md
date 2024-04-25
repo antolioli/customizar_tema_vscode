@@ -223,16 +223,15 @@ Adicione ou modifique as configurações de personalização de cores conforme d
             "fontStyle": ""
         }
     },
-    
   ]
 },
 </pre>
 
 <p>Salve o arquivo settings.json.</p>
 
-<h2>Reinício do Visual Studio Code</h2>
+<h2>Reinicie o VSCode</h2>
 
-<p>Após realizar as personalizações, você pode precisar reiniciar o Visual Studio Code para que as alterações tenham efeito.</p>
+<p>Após realizar as personalizações, pode precisar reiniciar o VSCode para que as alterações tenham efeito.</p>
 
 </body>
 </html>

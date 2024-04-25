@@ -1,30 +1,29 @@
-Customização de Temas e Cores no Visual Studio Code
-O Visual Studio Code oferece uma variedade de opções para personalizar temas e cores de acordo com suas preferências. 
-Esta documentação fornece instruções sobre como realizar essas personalizações.
+Customização de Temas e Cores no Visual Studio Code<br>
+O Visual Studio Code oferece uma variedade de opções para personalizar temas e cores de acordo com suas preferências. <br>
+Esta documentação fornece instruções sobre como realizar essas personalizações.<br>
 
-Personalização de Temas
+Personalização de Temas<br><br>
 
-Pressione Ctrl + , (ou Cmd + , no macOS) para abrir as configurações do usuário.
-No canto superior direito, clique no ícone de engrenagem e selecione "Settings".
-Na barra de pesquisa, digite "workbench.colorCustomizations" para encontrar as configurações de personalização de cores.
-Clique em "Edit in settings.json" para abrir o arquivo settings.json.
-Adicione ou modifique as configurações de personalização de cores conforme desejado. Por exemplo:
-Exemplo:
-"workbench.colorCustomizations": {
-        // Personalização das cores do ambiente de trabalho do VS Code
-        "activityBar.background": "#3a3f4b",
-        // Cor de fundo da barra de atividades
-        "activityBar.foreground": "#c7c7c7",
-        // Cor do texto e ícones da barra de atividades
-        "activityBar.inactiveForeground": "#9ca1b2",
-        // Cor do texto e ícones inativos da barra de atividades
-        "sideBar.background": "#2f3440",
+Pressione Ctrl + , (ou Cmd + , no macOS) para abrir as configurações do usuário.<br>
+No canto superior direito, clique no ícone de engrenagem e selecione "Settings".<br>
+Na barra de pesquisa, digite "workbench.colorCustomizations" para encontrar as configurações de personalização de cores.<br>
+Clique em "Edit in settings.json" para abrir o arquivo settings.json.<br>
+Adicione ou modifique as configurações de personalização de cores conforme desejado. Por exemplo:<br>
+<br>
+Exemplo:<br>
+<br>
+"workbench.colorCustomizations": {<br>
+        // Personalização das cores do ambiente de trabalho do VS Code<br>
+        "activityBar.background": "#3a3f4b",<br>
+        // Cor de fundo da barra de atividades<br>
+        "activityBar.foreground": "#c7c7c7",<br>
+        // Cor do texto e ícones da barra de atividades<br>
+        "activityBar.inactiveForeground": "#9ca1b2",<br>
+        // Cor do texto e ícones inativos da barra de atividades<br>
+        "sideBar.background": "#2f3440",<br>
 }
-Salve o arquivo settings.json.
-Exemplos de Customização de Cores
-"activityBar.background": Cor de fundo da barra de atividades.
-"activityBar.foreground": Cor do texto da barra de atividades.
-"editor.background": Cor de fundo do editor de texto.
-"editor.foreground": Cor do texto no editor de texto.
-Reinício do Visual Studio Code
+<br>
+<br>
+Salve o arquivo settings.json.<br>
+Reinício do Visual Studio Code<br>
 Após realizar as personalizações, você pode precisar reiniciar o Visual Studio Code para que as alterações tenham efeito.

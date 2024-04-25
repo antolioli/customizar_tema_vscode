@@ -13,14 +13,14 @@ Adicione ou modifique as configurações de personalização de cores conforme d
 Exemplo:<br>
 <br>
 "workbench.colorCustomizations": {<br>
-        // Personalização das cores do ambiente de trabalho do VS Code<br>
-        "activityBar.background": "#3a3f4b",<br>
-        // Cor de fundo da barra de atividades<br>
-        "activityBar.foreground": "#c7c7c7",<br>
-        // Cor do texto e ícones da barra de atividades<br>
-        "activityBar.inactiveForeground": "#9ca1b2",<br>
-        // Cor do texto e ícones inativos da barra de atividades<br>
-        "sideBar.background": "#2f3440",<br>
+        - Item 1:// Personalização das cores do ambiente de trabalho do VS Code<br>
+       - Item 1: "activityBar.background": "#3a3f4b",<br>
+       - Item 1: // Cor de fundo da barra de atividades<br>
+       - Item 1: "activityBar.foreground": "#c7c7c7",<br>
+       - Item 1: // Cor do texto e ícones da barra de atividades<br>
+       - Item 1: "activityBar.inactiveForeground": "#9ca1b2",<br>
+       - Item 1: // Cor do texto e ícones inativos da barra de atividades<br>
+       - Item 1: "sideBar.background": "#2f3440",<br>
 }
 <br>
 <br>

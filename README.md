@@ -3,18 +3,6 @@ O Visual Studio Code oferece uma variedade de opções para personalizar temas e
 Esta documentação fornece instruções sobre como realizar essas personalizações.
 
 Personalização de Temas
-Instalação de Temas
-Abra o Visual Studio Code.
-Pressione Ctrl + Shift + X (ou Cmd + Shift + X no macOS) para abrir a barra de extensões.
-Pesquise por temas usando a barra de pesquisa.
-Clique no tema desejado e, em seguida, clique no botão "Install" para instalá-lo.
-Ativação de Temas
-Pressione Ctrl + , (ou Cmd + , no macOS) para abrir as configurações do usuário.
-No canto superior direito, clique no ícone de engrenagem e selecione "Color Theme".
-Escolha o tema desejado na lista de temas instalados.
-Personalização de Cores
-Customização de Cores
-Você também pode personalizar cores individuais dentro de um tema existente. Aqui está como fazer isso:
 
 Pressione Ctrl + , (ou Cmd + , no macOS) para abrir as configurações do usuário.
 No canto superior direito, clique no ícone de engrenagem e selecione "Settings".
@@ -24,10 +12,14 @@ Adicione ou modifique as configurações de personalização de cores conforme d
 json
 Copy code
 "workbench.colorCustomizations": {
-    "activityBar.background": "#2c3e50",
-    "activityBar.foreground": "#ffffff",
-    "editor.background": "#ffffff",
-    "editor.foreground": "#333333"
+        // Personalização das cores do ambiente de trabalho do VS Code
+        "activityBar.background": "#3a3f4b",
+        // Cor de fundo da barra de atividades
+        "activityBar.foreground": "#c7c7c7",
+        // Cor do texto e ícones da barra de atividades
+        "activityBar.inactiveForeground": "#9ca1b2",
+        // Cor do texto e ícones inativos da barra de atividades
+        "sideBar.background": "#2f3440",
 }
 Salve o arquivo settings.json.
 Exemplos de Customização de Cores
